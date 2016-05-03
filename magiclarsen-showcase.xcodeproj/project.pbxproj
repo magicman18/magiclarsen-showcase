@@ -13,6 +13,17 @@
 		98D9C32A1CD8F882008D8D29 /* magiclarsen_showcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3281CD8F882008D8D29 /* magiclarsen_showcase.xcdatamodeld */; };
 		98D9C32C1CD8F882008D8D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C32B1CD8F882008D8D29 /* Assets.xcassets */; };
 		98D9C32F1CD8F882008D8D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C32D1CD8F882008D8D29 /* LaunchScreen.storyboard */; };
+		98D9C3391CD8F939008D8D29 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */; };
+		98D9C33A1CD8F939008D8D29 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */; };
+		98D9C33B1CD8F939008D8D29 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */; };
+		98D9C3441CD8FC53008D8D29 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3401CD8FC53008D8D29 /* NotoSans-Bold.ttf */; };
+		98D9C3451CD8FC53008D8D29 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3411CD8FC53008D8D29 /* NotoSans-BoldItalic.ttf */; };
+		98D9C3461CD8FC53008D8D29 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3421CD8FC53008D8D29 /* NotoSans-Italic.ttf */; };
+		98D9C3471CD8FC53008D8D29 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3431CD8FC53008D8D29 /* NotoSans-Regular.ttf */; };
+		98D9C3491CD8FF02008D8D29 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3481CD8FF02008D8D29 /* MaterialView.swift */; };
+		98D9C34C1CD8FF4B008D8D29 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C34B1CD8FF4B008D8D29 /* Constants.swift */; };
+		98D9C34E1CD903BB008D8D29 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C34D1CD903BB008D8D29 /* MaterialButton.swift */; };
+		98D9C3501CD9063D008D8D29 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C34F1CD9063D008D8D29 /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		98D9C32B1CD8F882008D8D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D9C32E1CD8F882008D8D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D9C3301CD8F882008D8D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		98D9C3401CD8FC53008D8D29 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		98D9C3411CD8FC53008D8D29 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		98D9C3421CD8FC53008D8D29 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		98D9C3431CD8FC53008D8D29 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		98D9C3481CD8FF02008D8D29 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		98D9C34B1CD8FF4B008D8D29 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		98D9C34D1CD903BB008D8D29 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		98D9C34F1CD9063D008D8D29 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D9C33A1CD8F939008D8D29 /* FBSDKLoginKit.framework in Frameworks */,
+				98D9C3391CD8F939008D8D29 /* FBSDKCoreKit.framework in Frameworks */,
+				98D9C33B1CD8F939008D8D29 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,9 @@
 			children = (
 				98D9C3201CD8F882008D8D29 /* magiclarsen-showcase */,
 				98D9C31F1CD8F882008D8D29 /* Products */,
+				98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */,
+				98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */,
+				98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,11 @@
 		98D9C3201CD8F882008D8D29 /* magiclarsen-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				98D9C34A1CD8FF32008D8D29 /* Util */,
+				98D9C33F1CD8FC3E008D8D29 /* Resources */,
+				98D9C33E1CD8FC38008D8D29 /* Model */,
+				98D9C33D1CD8FC33008D8D29 /* View */,
+				98D9C33C1CD8FC2D008D8D29 /* Controller */,
 				98D9C3211CD8F882008D8D29 /* AppDelegate.swift */,
 				98D9C3231CD8F882008D8D29 /* ViewController.swift */,
 				98D9C3251CD8F882008D8D29 /* Main.storyboard */,
@@ -65,6 +98,49 @@
 				98D9C3281CD8F882008D8D29 /* magiclarsen_showcase.xcdatamodeld */,
 			);
 			path = "magiclarsen-showcase";
+			sourceTree = "<group>";
+		};
+		98D9C33C1CD8FC2D008D8D29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		98D9C33D1CD8FC33008D8D29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98D9C3481CD8FF02008D8D29 /* MaterialView.swift */,
+				98D9C34D1CD903BB008D8D29 /* MaterialButton.swift */,
+				98D9C34F1CD9063D008D8D29 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		98D9C33E1CD8FC38008D8D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		98D9C33F1CD8FC3E008D8D29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98D9C3401CD8FC53008D8D29 /* NotoSans-Bold.ttf */,
+				98D9C3411CD8FC53008D8D29 /* NotoSans-BoldItalic.ttf */,
+				98D9C3421CD8FC53008D8D29 /* NotoSans-Italic.ttf */,
+				98D9C3431CD8FC53008D8D29 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98D9C34A1CD8FF32008D8D29 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				98D9C34B1CD8FF4B008D8D29 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +201,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D9C3441CD8FC53008D8D29 /* NotoSans-Bold.ttf in Resources */,
 				98D9C32F1CD8F882008D8D29 /* LaunchScreen.storyboard in Resources */,
+				98D9C3451CD8FC53008D8D29 /* NotoSans-BoldItalic.ttf in Resources */,
+				98D9C3461CD8FC53008D8D29 /* NotoSans-Italic.ttf in Resources */,
 				98D9C32C1CD8F882008D8D29 /* Assets.xcassets in Resources */,
 				98D9C3271CD8F882008D8D29 /* Main.storyboard in Resources */,
+				98D9C3471CD8FC53008D8D29 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D9C34C1CD8FF4B008D8D29 /* Constants.swift in Sources */,
 				98D9C3241CD8F882008D8D29 /* ViewController.swift in Sources */,
+				98D9C34E1CD903BB008D8D29 /* MaterialButton.swift in Sources */,
 				98D9C3221CD8F882008D8D29 /* AppDelegate.swift in Sources */,
 				98D9C32A1CD8F882008D8D29 /* magiclarsen_showcase.xcdatamodeld in Sources */,
+				98D9C3491CD8FF02008D8D29 /* MaterialView.swift in Sources */,
+				98D9C3501CD9063D008D8D29 /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +339,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "magiclarsen-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magiclarsen.magiclarsen-showcase";
@@ -266,6 +354,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "magiclarsen-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magiclarsen.magiclarsen-showcase";
