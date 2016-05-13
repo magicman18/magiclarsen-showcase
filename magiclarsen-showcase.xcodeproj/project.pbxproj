@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B6483AFF797FB1555423F2 /* Pods_magiclarsen_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */; };
 		98D9C3221CD8F882008D8D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3211CD8F882008D8D29 /* AppDelegate.swift */; };
 		98D9C3241CD8F882008D8D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3231CD8F882008D8D29 /* ViewController.swift */; };
 		98D9C3271CD8F882008D8D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3251CD8F882008D8D29 /* Main.storyboard */; };
@@ -24,9 +25,11 @@
 		98D9C34C1CD8FF4B008D8D29 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C34B1CD8FF4B008D8D29 /* Constants.swift */; };
 		98D9C34E1CD903BB008D8D29 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C34D1CD903BB008D8D29 /* MaterialButton.swift */; };
 		98D9C3501CD9063D008D8D29 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C34F1CD9063D008D8D29 /* MaterialTextField.swift */; };
+		98D9C3521CD9BA43008D8D29 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D9C3511CD9BA43008D8D29 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiclarsen_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D9C31E1CD8F882008D8D29 /* magiclarsen-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magiclarsen-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D9C3211CD8F882008D8D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D9C3231CD8F882008D8D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +38,9 @@
 		98D9C32B1CD8F882008D8D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D9C32E1CD8F882008D8D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D9C3301CD8F882008D8D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FBSDKShareKit.framework; sourceTree = "<group>"; };
 		98D9C3401CD8FC53008D8D29 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		98D9C3411CD8FC53008D8D29 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		98D9C3421CD8FC53008D8D29 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		98D9C34B1CD8FF4B008D8D29 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		98D9C34D1CD903BB008D8D29 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		98D9C34F1CD9063D008D8D29 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		98D9C3511CD9BA43008D8D29 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AB38280EB43B2C55A8C013BE /* Pods-magiclarsen-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magiclarsen-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-magiclarsen-showcase/Pods-magiclarsen-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		DF4A8DAD836B8B17AFCBEF6F /* Pods-magiclarsen-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magiclarsen-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-magiclarsen-showcase/Pods-magiclarsen-showcase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +62,38 @@
 				98D9C33A1CD8F939008D8D29 /* FBSDKLoginKit.framework in Frameworks */,
 				98D9C3391CD8F939008D8D29 /* FBSDKCoreKit.framework in Frameworks */,
 				98D9C33B1CD8F939008D8D29 /* FBSDKShareKit.framework in Frameworks */,
+				98D9C3521CD9BA43008D8D29 /* Bolts.framework in Frameworks */,
+				46B6483AFF797FB1555423F2 /* Pods_magiclarsen_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FA4F14EB8704DCB52D6E9C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF4A8DAD836B8B17AFCBEF6F /* Pods-magiclarsen-showcase.debug.xcconfig */,
+				AB38280EB43B2C55A8C013BE /* Pods-magiclarsen-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FBBB0422C3C36AF5295BC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98D9C3151CD8F882008D8D29 = {
 			isa = PBXGroup;
 			children = (
 				98D9C3201CD8F882008D8D29 /* magiclarsen-showcase */,
 				98D9C31F1CD8F882008D8D29 /* Products */,
-				98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */,
-				98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */,
-				98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */,
+				4FA4F14EB8704DCB52D6E9C2 /* Pods */,
+				8FBBB0422C3C36AF5295BC9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +108,7 @@
 		98D9C3201CD8F882008D8D29 /* magiclarsen-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				98D9C3531CD9BA4D008D8D29 /* Frameworks */,
 				98D9C34A1CD8FF32008D8D29 /* Util */,
 				98D9C33F1CD8FC3E008D8D29 /* Resources */,
 				98D9C33E1CD8FC38008D8D29 /* Model */,
@@ -143,6 +168,17 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		98D9C3531CD9BA4D008D8D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D9C3511CD9BA43008D8D29 /* Bolts.framework */,
+				98D9C3361CD8F939008D8D29 /* FBSDKCoreKit.framework */,
+				98D9C3371CD8F939008D8D29 /* FBSDKLoginKit.framework */,
+				98D9C3381CD8F939008D8D29 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98D9C3331CD8F882008D8D29 /* Build configuration list for PBXNativeTarget "magiclarsen-showcase" */;
 			buildPhases = (
+				FF3C5738129CF55178FCEAB9 /* 📦 Check Pods Manifest.lock */,
 				98D9C31A1CD8F882008D8D29 /* Sources */,
 				98D9C31B1CD8F882008D8D29 /* Frameworks */,
 				98D9C31C1CD8F882008D8D29 /* Resources */,
+				2C5C32B560374551897E7DC6 /* 📦 Embed Pods Frameworks */,
+				E105019265E61DDFA90A0380 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +251,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C5C32B560374551897E7DC6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-magiclarsen-showcase/Pods-magiclarsen-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E105019265E61DDFA90A0380 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-magiclarsen-showcase/Pods-magiclarsen-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3C5738129CF55178FCEAB9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98D9C31A1CD8F882008D8D29 /* Sources */ = {
@@ -337,30 +424,36 @@
 		};
 		98D9C3341CD8F882008D8D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4A8DAD836B8B17AFCBEF6F /* Pods-magiclarsen-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/magiclarsen-showcase",
 				);
 				INFOPLIST_FILE = "magiclarsen-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magiclarsen.magiclarsen-showcase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiclarsen.showcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		98D9C3351CD8F882008D8D29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB38280EB43B2C55A8C013BE /* Pods-magiclarsen-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/magiclarsen-showcase",
 				);
 				INFOPLIST_FILE = "magiclarsen-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.magiclarsen.magiclarsen-showcase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiclarsen.showcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -384,6 +477,7 @@
 				98D9C3351CD8F882008D8D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
