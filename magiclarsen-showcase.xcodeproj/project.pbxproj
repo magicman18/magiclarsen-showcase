@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46B6483AFF797FB1555423F2 /* Pods_magiclarsen_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */; };
+		9855C5811CEA53C500B9DBF3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855C5801CEA53C500B9DBF3 /* DataService.swift */; };
 		98D9C3221CD8F882008D8D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3211CD8F882008D8D29 /* AppDelegate.swift */; };
 		98D9C3241CD8F882008D8D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3231CD8F882008D8D29 /* ViewController.swift */; };
 		98D9C3271CD8F882008D8D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3251CD8F882008D8D29 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiclarsen_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9855C5801CEA53C500B9DBF3 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		98D9C31E1CD8F882008D8D29 /* magiclarsen-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magiclarsen-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D9C3211CD8F882008D8D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D9C3231CD8F882008D8D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9855C57F1CEA53A800B9DBF3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9855C5801CEA53C500B9DBF3 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		98D9C3151CD8F882008D8D29 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 		98D9C3201CD8F882008D8D29 /* magiclarsen-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				9855C57F1CEA53A800B9DBF3 /* Services */,
 				98D9C3531CD9BA4D008D8D29 /* Frameworks */,
 				98D9C34A1CD8FF32008D8D29 /* Util */,
 				98D9C33F1CD8FC3E008D8D29 /* Resources */,
@@ -312,6 +323,7 @@
 				98D9C32A1CD8F882008D8D29 /* magiclarsen_showcase.xcdatamodeld in Sources */,
 				98D9C3491CD8FF02008D8D29 /* MaterialView.swift in Sources */,
 				98D9C3501CD9063D008D8D29 /* MaterialTextField.swift in Sources */,
+				9855C5811CEA53C500B9DBF3 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
