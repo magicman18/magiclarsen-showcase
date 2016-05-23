@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		46B6483AFF797FB1555423F2 /* Pods_magiclarsen_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */; };
 		9855C5811CEA53C500B9DBF3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855C5801CEA53C500B9DBF3 /* DataService.swift */; };
+		98A33E7F1CF35AB30020FC31 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A33E7E1CF35AB30020FC31 /* FeedVC.swift */; };
+		98A33E811CF35B990020FC31 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A33E801CF35B990020FC31 /* PostCell.swift */; };
 		98D9C3221CD8F882008D8D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3211CD8F882008D8D29 /* AppDelegate.swift */; };
 		98D9C3241CD8F882008D8D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9C3231CD8F882008D8D29 /* ViewController.swift */; };
 		98D9C3271CD8F882008D8D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D9C3251CD8F882008D8D29 /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		395CE2FA3FA9C8FF9AD73854 /* Pods_magiclarsen_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiclarsen_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9855C5801CEA53C500B9DBF3 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		98A33E7E1CF35AB30020FC31 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		98A33E801CF35B990020FC31 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		98D9C31E1CD8F882008D8D29 /* magiclarsen-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magiclarsen-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D9C3211CD8F882008D8D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D9C3231CD8F882008D8D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +130,6 @@
 				98D9C33D1CD8FC33008D8D29 /* View */,
 				98D9C33C1CD8FC2D008D8D29 /* Controller */,
 				98D9C3211CD8F882008D8D29 /* AppDelegate.swift */,
-				98D9C3231CD8F882008D8D29 /* ViewController.swift */,
 				98D9C3251CD8F882008D8D29 /* Main.storyboard */,
 				98D9C32B1CD8F882008D8D29 /* Assets.xcassets */,
 				98D9C32D1CD8F882008D8D29 /* LaunchScreen.storyboard */,
@@ -139,6 +142,8 @@
 		98D9C33C1CD8FC2D008D8D29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				98D9C3231CD8F882008D8D29 /* ViewController.swift */,
+				98A33E7E1CF35AB30020FC31 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				98D9C3481CD8FF02008D8D29 /* MaterialView.swift */,
 				98D9C34D1CD903BB008D8D29 /* MaterialButton.swift */,
 				98D9C34F1CD9063D008D8D29 /* MaterialTextField.swift */,
+				98A33E801CF35B990020FC31 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				TargetAttributes = {
 					98D9C31D1CD8F882008D8D29 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = M75W36VL8P;
 					};
 				};
 			};
@@ -316,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A33E7F1CF35AB30020FC31 /* FeedVC.swift in Sources */,
 				98D9C34C1CD8FF4B008D8D29 /* Constants.swift in Sources */,
 				98D9C3241CD8F882008D8D29 /* ViewController.swift in Sources */,
 				98D9C34E1CD903BB008D8D29 /* MaterialButton.swift in Sources */,
@@ -324,6 +332,7 @@
 				98D9C3491CD8FF02008D8D29 /* MaterialView.swift in Sources */,
 				98D9C3501CD9063D008D8D29 /* MaterialTextField.swift in Sources */,
 				9855C5811CEA53C500B9DBF3 /* DataService.swift in Sources */,
+				98A33E811CF35B990020FC31 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +448,8 @@
 			baseConfigurationReference = DF4A8DAD836B8B17AFCBEF6F /* Pods-magiclarsen-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magiclarsen.showcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -457,6 +469,8 @@
 			baseConfigurationReference = AB38280EB43B2C55A8C013BE /* Pods-magiclarsen-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magiclarsen.showcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
